@@ -1,0 +1,30 @@
+{
+  "name": "stock-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-samhsieh:samslhsieh/stock-fetcher.git"
+  },
+  "keywords": [
+    "stock"
+  ],
+  "author": "sam.hsieh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "prettier": "^2.2.1",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "@types/node": "^15.0.2",
+    "@types/ramda": "^0.27.40"
+  }
+}
